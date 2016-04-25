@@ -41,12 +41,23 @@ body {
   font-weight: 600;
 }
 
-.chart .yAxis path line {
+.chart .yAxis path {
   fill: none;
   stroke: none;
 }
 
-.chart .xAxis path line {
+.chart .yAxis line {
+  fill: none;
+  stroke: none;
+}
+
+.chart .xAxis path {
+  fill: none;
+  stroke: #424242;
+  shape-rendering: crispEdges;
+}
+
+.chart .xAxis line {
   fill: none;
   stroke: #424242;
   shape-rendering: crispEdges;
